@@ -82,14 +82,13 @@ input::placeholder {
   font-size: 13.5px;
 }
 
-
 input:hover {
-  transform:scale(1.25);
+  transform: scale(1.05);
   transition: transform 1s;
 }
 
 input:focus {
-  transform:scale(1.25);
+  transform: scale(1.05);
   border: none;
 }
 
