@@ -25,6 +25,17 @@ export const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
+  const getTotalCartQuantity = () => {
+    let totalQuantity = 0;
+    for (const item in cartItems) {
+      if (cartItems[item] > 0) {
+        let itemInfo = PRODUCTS.find((product) => product.id === Number(item));
+        totalQuantity += cartItems[item] * itemInfo.quantity;
+      }
+    }
+    return totalQuantity;
+  };
+
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
   };
@@ -48,6 +59,7 @@ export const ShopContextProvider = (props) => {
     removeFromCart,
     getTotalCartAmount,
     checkout,
+    getTotalCartQuantity,
   };
 
   return (

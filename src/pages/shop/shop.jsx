@@ -1,3 +1,4 @@
+import { Navbar2 } from "../../components/navbar2";
 import { PRODUCTS } from "../../products";
 import { Product } from "./product";
 import "./shop.css";
@@ -13,9 +14,10 @@ export const Shop = () => {
 
       <div className="products">
         {PRODUCTS.map((product) => (
-          <Product data={product}  />
+          <Product data={product} />
         ))}
       </div>
+      <Navbar2 />
     </div>
   );
 };

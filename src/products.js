@@ -14,6 +14,8 @@ export const PRODUCTS = [
     price: 999.0,
     productImage: product1,
     category: "Phone",
+    quantity: 1,
+    rating: "1 / 5",
   },
   {
     id: 2,
@@ -21,6 +23,8 @@ export const PRODUCTS = [
     price: 666.0,
     productImage: product2,
     category: "Laptop",
+    quantity: 1,
+    rating: "2 / 5",
   },
   {
     id: 3,
@@ -28,6 +32,8 @@ export const PRODUCTS = [
     price: 444.0,
     productImage: product3,
     category: "Phone",
+    quantity: 1,
+    rating: "5 / 5",
   },
   {
     id: 4,
@@ -35,6 +41,8 @@ export const PRODUCTS = [
     price: 333.0,
     productImage: product4,
     category: "Phone",
+    quantity: 1,
+    rating: "4 / 5",
   },
   {
     id: 5,
@@ -42,6 +50,8 @@ export const PRODUCTS = [
     price: 444.0,
     productImage: product5,
     category: "Phone",
+    quantity: 1,
+    rating: "3 / 5",
   },
   {
     id: 6,
@@ -49,6 +59,8 @@ export const PRODUCTS = [
     price: 333.0,
     productImage: product6,
     category: "Laptop",
+    quantity: 1,
+    rating: "2 / 5",
   },
   {
     id: 7,
@@ -56,6 +68,8 @@ export const PRODUCTS = [
     price: 222.0,
     productImage: product7,
     category: "Phone",
+    quantity: 1,
+    rating: "1 / 5",
   },
   {
     id: 8,
@@ -63,5 +77,7 @@ export const PRODUCTS = [
     price: 111.0,
     productImage: product8,
     category: "Laptop",
+    quantity: 1,
+    rating: "4 / 5",
   },
 ];
